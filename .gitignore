@@ -1,0 +1,15 @@
+
+# --- Help search database folders
+*/*/helpsearch*/
+*/helpsearch*/
+helpsearch*/
+
+# --- Generated documentation files
+*.html
+
+# --- Temporary files
+*.m~
+
+# --- Toolbox files
+*.mltbx
+*.prj
