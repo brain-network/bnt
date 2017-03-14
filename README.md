@@ -1,12 +1,15 @@
 # Brain Network Toolbox (BNT)
 
-Brain Network Toolbox
+Brain Network Toolbox is a MATLAB(R) toolbox...
 
 # To-do
 
-- [ ] Add a `Package.m` script to generate the toolbox package by publishing all the documentation automatically
-- [ ] Finalize the documentation of each function
-- [ ] Write example scripts
+- [ ] Write a toolbox description.
+- [ ] Choose a licence.
+- [ ] Finalize the documentation of each function.
+- [ ] Write example scripts.
+- [ ] Add a `Package.m` script to generate the toolbox package by publishing all the documentation automatically.
+- [ ] Write unitary tests.
 
 # Contact
 
