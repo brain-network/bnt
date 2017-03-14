@@ -1,0 +1,8 @@
+<productinfo>
+    <matlabrelease>R2016b</matlabrelease>
+    <name>Brain Network</name>
+    <type>toolbox</type>
+    <icon>$toolbox/matlab/icons/matlabicon.gif</icon>
+    <help_location>../bnthelp/html</help_location>
+    <help_contents_icon></help_contents_icon>
+</productinfo>

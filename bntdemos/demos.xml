@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2014-2016 The MathWorks, Inc. -->
+<demos>
+    <name>Brain Network</name>
+    <type>toolbox</type>
+    <icon>HelpIcon.DEMOS</icon>
+    <description>
+        <p>Brain Network Toolbox description coming soon...</p>
+    </description>
+    <website><a href="https://github.com/brain-network/bnt">GitHub page</a></website>
+
+    <demosection>
+        <label>Multiplex Network Analysis</label>
+        <demoitem>
+            <label>Multi-Participation Coefficient</label>
+            <type>M-file</type>
+            <source>MultiParticipationCoefficientDemo</source>
+            <thumbnail>html/multiparticipationcoefficient.png</thumbnail>
+        </demoitem>
+    </demosection>
+    
+    <!-- Uplink LTE Modeling -->
+	<demosection>
+        <label>Uplink LTE Modeling</label> 
+		
+        <demoitem>
+            <label>Uplink Waveform Modeling Using SRS and PUCCH</label>
+            <type>M-file</type>
+            <source>SRSConfigurationExample</source>
+        </demoitem>
+    </demosection>
+
+</demos>

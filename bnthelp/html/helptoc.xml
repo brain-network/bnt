@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding="utf-8"?>
+<toc version="2.0">
+
+    <tocitem target="HomePage.html">Brain Network
+    	<tocitem target="getting_started.html" image="HelpIcon.GETTING_STARTED">Getting Started
+            <tocitem target="system_requirements.html">System Requirements</tocitem>
+            <tocitem target="installation.html">Installation</tocitem>
+        </tocitem>
+        <tocitem target="functions.html" image="HelpIcon.FUNCTION">Functions 
+            <tocitem target="function_brainplot.html" image="HelpIcon.FUNCTION">brainplot</tocitem>
+            <tocitem target="function_egsensorpos.html" image="HelpIcon.FUNCTION">egsensorpos</tocitem>
+        </tocitem>
+        <tocitem target="../../bntdemos/demos.xml" image="HelpIcon.EXAMPLES">Examples
+
+        </tocitem>
+    </tocitem>
+
+</toc>
