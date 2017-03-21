@@ -5,7 +5,8 @@ Brain Network Toolbox is a MATLAB(R) toolbox...
 # To-do
 
 - [ ] Write a toolbox description.
-- [ ] Choose a licence.
+- [x] Choose a licence.
+- [x] Add the `.bib` file to cite `BNT`.
 - [ ] Finalize the documentation of each function.
 - [ ] Write example scripts.
 - [ ] Add a `Package.m` script to generate the toolbox package by publishing all the documentation automatically.
@@ -17,4 +18,4 @@ Contact [contact@guillonjeremy.co](mailto:contact@guillonjeremy.co?Subject=%5BBN
 
 # License
 
-Please see [LICENCE](LICENCE).
+Please see [LICENCE](LICENCE.md).
