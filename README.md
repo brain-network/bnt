@@ -2,6 +2,12 @@
 
 Brain Network Toolbox is a MATLAB(R) toolbox...
 
+# Citing BNT
+
+If you used a specific function for your work, you can type `help <FUNCTION>` in MATLAB(R) to get the associated reference.
+A [BibTeX file](bnt.bib) is provided in this repository containing all the necessary references.
+
+
 # To-do
 
 - [ ] Write a toolbox description.
@@ -18,4 +24,4 @@ Contact [contact@guillonjeremy.co](mailto:contact@guillonjeremy.co?Subject=%5BBN
 
 # License
 
-Please see [LICENCE](LICENCE.md).
+Please see [LICENSE](LICENSE.md).
