@@ -10,6 +10,5 @@ helpsearch*/
 # --- Temporary files
 *.m~
 
-# --- Toolbox files
+# --- Toolbox file
 *.mltbx
-*.prj

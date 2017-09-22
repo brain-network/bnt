@@ -1,7 +1,6 @@
 # Brain Network Toolbox (BNT)
 
-Brain Network Toolbox (BNT) is a MATLAB(R) toolbox...
-
+BNT can be seen as a repository of MATLAB&#174; scripts and functions that contributed to paper publications in the field brain connectivity. It is being continuously and jointly developed by scientists of the [ARAMIS LAB](http://www.aramislab.fr) at the [Brain and Spine Institute](https://icm-institute.org), Paris, FR and the University College of London, UK.
 
 ## Installation
 
@@ -11,7 +10,7 @@ If you want to install this toolbox in a specific location, you can download the
 
 ## Getting started
 
-The first thing to do is to consult the BNT documentation by typing `doc 
+The first thing to do is to consult the BNT documentation by typing `doc 'Brain Network Toolbox'`.
 
 ## Citing BNT
 
