@@ -6,9 +6,11 @@ helpsearch*/
 
 # --- Generated documentation files
 *.html
+*.png
 
 # --- Temporary files
 *.m~
+*.icloud
 
 # --- Toolbox file
 *.mltbx

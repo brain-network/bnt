@@ -6,7 +6,7 @@ BNT can be seen as a repository of MATLAB&#174; scripts and functions that contr
 
 The simplest way to install this toolbox is to download the [latest toolbox package file](https://github.com/brain-network/bnt/releases), double-click on it and follow the instructions.
 
-If you want to install this toolbox in a specific location, you can download the [zip file](), extract it and add this location to your MATLAB(R) path 
+If you want to install this toolbox in a specific location, you can download the [zip file](), extract it and add this location to your MATLAB&#174; path 
 
 ## Getting started
 
@@ -14,16 +14,18 @@ The first thing to do is to consult the BNT documentation by typing `doc 'Brain 
 
 ## Citing BNT
 
-If you used a specific function for your work, you can type `help bnt.<FUNCTION>` in MATLAB(R) to get the associated reference.
+If you used a specific function for your work, you can type `help bnt.<FUNCTION>` in MATLAB&#174; to get the associated reference.
 A [BibTeX file](bnt.bib) is provided in this repository containing all the necessary references.
 
 ## Contact
 
 Contact [contact@guillonjeremy.co](mailto:contact@guillonjeremy.co?Subject=%5BBNT%5D%20Request) if you have any request.
 
-## License
+## License and external sources
 
-This toolbox is distributed under the [MIT license](LICENSE.md).
+This toolbox is distributed under the [MIT license](LICENSE.md) but uses functions or toolboxes under copyright:
+
+- `cprintf` function [link](https://fr.mathworks.com/matlabcentral/fileexchange/24093-cprintf-display-formatted-colored-text-in-the-command-window)
 
 ## Contributing
 
