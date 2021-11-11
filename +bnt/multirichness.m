@@ -1,6 +1,6 @@
-function [mu, muMinus, muPlus] = richness(A, L, N, f, c)
-%RICHNESS SHORT_DESCRIPTION.
-%   [MU, MUPLUS] = RICHNESS(A, L, N, C) CASE_DESCRIPTION.
+function [mu, muMinus, muPlus] = multirichness(A, L, N, f, c)
+%MULTIRICHNESS SHORT_DESCRIPTION.
+%   [MU, MUMINUS, MUPLUS] = MULTIRICHNESS(A, L, N, C) CASE_DESCRIPTION.
 %
 %   Inputs:
 %
@@ -14,6 +14,7 @@ function [mu, muMinus, muPlus] = richness(A, L, N, f, c)
 %   Outputs:
 %
 %       MU      Multiplex richness.
+%       MUMINUS Multiplex richness.
 %       MUPLUS  Multiplex richness toward richer nodes.
 %
 %   Examples:
@@ -39,7 +40,7 @@ if nargin < 5
     c = ones(L,1) / L; % Richness coefficients default values
 end
 if nargin < 4
-    f = @jg.conn.index.mono.richness;
+    f = @bnt.richness;
 end
 
 
@@ -47,7 +48,7 @@ end
 %
 
 M = L; % Reference's notation
-T = jg.conn.supraadjmat2tensor(A,L,N); % Tensor reprensation of the network
+T = bnt.conn.supraadjmat2tensor(A,L,N); % Tensor reprensation of the network
 mu = zeros(N, 1); % Multiplex richness
 muPlus = zeros(N, 1); % Multiplex richness towards higher richness nodes
 muMinus = zeros(N, 1); % Multiplex richness towards higher richness nodes

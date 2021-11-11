@@ -22,7 +22,7 @@ function bntlog(message, varargin)
 %% Parse arguments and options
 
 opt.level = 'INFO';
-opt = jg.util.args2opt(varargin, opt);
+opt = args2opt(varargin, opt);
 
 if ~ismember(opt.level, {'DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL'})
     message = sprintf('Invalid logging level: %s', opt.level);

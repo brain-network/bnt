@@ -68,7 +68,7 @@ elseif isstruct(args)
         opt = setfield(opt, name, value, allowCustomFields);
     end
 else
-    error('JG:args2opt:InvalidInput','The ''args'' input must be either a structure or a cell array; %s received.',class(args));
+    error('BNT:args2opt:InvalidInput','The ''args'' input must be either a structure or a cell array; %s received.',class(args));
 end
 
 
@@ -83,7 +83,7 @@ end
         elseif isempty(optFieldInd) && allowCustomFields
             S.(name) = value;
         else 
-            error('JG:args2opt:setfield:UnknownFieldName', 'Unknown field name: ''%s''.', name);
+            error('BNT:args2opt:setfield:UnknownFieldName', 'Unknown field name: ''%s''.', name);
         end
     end
 

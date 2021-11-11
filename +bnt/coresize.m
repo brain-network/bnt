@@ -20,7 +20,13 @@ function s = coresize(A, L, N, f, c)
 %       % EXAMPLE2_DESCRIPTION:
 %       EXAMPLE2_CODE
 %
-%   See also JG.CONN.INDEX.MULTI.COREPERIPHERY.
+%   References: 
+%
+%       [1] Battiston, F., Guillon, J., Chavez, M., Latora, V. & Fallani, F.
+%       D. V. Multiplex core-periphery organization of the human
+%       connectome. arXiv:1801.01913 [physics, q-bio] (2017).
+%
+%   See also BNT.COREPERIPHERY.
 %
 %   Copyright 2018 <a href="http://guillonjeremy.co">GUILLON Jeremy</a>.
 
