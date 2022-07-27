@@ -1,0 +1,171 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration build-checksum="974950269" file="/Users/jeremy.guillon/Repositories/bnt/bnt.prj" location="/Users/jeremy.guillon/Repositories/bnt" name="bnt" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>Brain Network Toolbox</param.appname>
+    <param.authnamewatermark>Jeremy Guillon; Fabrizio De Vico Fallani</param.authnamewatermark>
+    <param.email>jeremy.damien.guillon@gmail.com</param.email>
+    <param.company>ARAMIS LAB, Paris, FR</param.company>
+    <param.summary>Brain networks analysis tools</param.summary>
+    <param.description>BNT can be seen as a repository of MATLAB scripts and functions that contributed to paper publications in the field brain connectivity. It is being continuously and jointly developed by scientists of the ARAMIS LAB at the Brain and Spine Institute, Paris, FR and the University College of London, UK. Any contribution is more than welcome; instructions are accessible through our GitHub repository web page: http://github.com/brain-network/bnt.</param.description>
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.output>${PROJECT_ROOT}/Brain Network Toolbox.mltbx</param.output>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.guid>a336355f-b2be-42d2-9acc-15aa17d00080</param.guid>
+    <param.exclude.filters>% List files contained in your toolbox folder that you would like to exclude
+% from packaging.  Excludes should be listed relative to the toolbox folder.
+% Some examples of how to specify excludes are provided below:
+%
+% A single file in the toolbox folder:
+% .svn
+%
+% A single file in a subfolder of the toolbox folder:
+% example/.svn
+%
+% All files in a subfolder of the toolbox folder:
+% example/*
+%
+% All files of a certain name in all subfolders of the toolbox folder:
+% **/.svn
+%
+% All files matching a pattern in all subfolders of the toolbox folder:
+% **/*.bak
+%
+
+.git
+.DS_Store
+.gitignore</param.exclude.filters>
+    <param.exclude.pcodedmfiles>true</param.exclude.pcodedmfiles>
+    <param.examples>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;examples&gt;
+   &lt;exampleCategory name="Multiplex Network Analysis"&gt;
+      &lt;example name="Multi-Participation Coefficient" type="html"&gt;
+         &lt;file type="source"&gt;/examples/html/SuperExample.html&lt;/file&gt;
+         &lt;file type="main"&gt;/examples/SuperExample.m&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+   &lt;/exampleCategory&gt;
+   &lt;exampleCategory name="Uplink LTE Modeling"&gt;
+      &lt;example name="Uplink Waveform Modeling Using SRS and PUCCH" type="html"&gt;
+         &lt;file type="source"&gt;/examples/html/SuperExample.html&lt;/file&gt;
+         &lt;file type="main"&gt;/examples/SuperExample.m&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+   &lt;/exampleCategory&gt;
+&lt;/examples&gt;</param.examples>
+    <param.demosxml />
+    <param.apps />
+    <param.registered.apps />
+    <param.docs>${PROJECT_ROOT}/info.xml</param.docs>
+    <param.getting.started.guide>${PROJECT_ROOT}/doc/GettingStarted.mlx</param.getting.started.guide>
+    <param.matlabpath.excludes>
+      <item>/Users/jeremy.guillon/Repositories/multiconproject/ext/bct</item>
+      <item>/doc/html</item>
+      <item>/doc/html/examples</item>
+      <item>/doc/html/helpsearch-v3</item>
+      <item>/doc/html/ref</item>
+      <item>/doc</item>
+      <item>/examples/html</item>
+    </param.matlabpath.excludes>
+    <param.javaclasspath.excludes />
+    <param.exported.on.package>true</param.exported.on.package>
+    <param.required.addons />
+    <param.matlab.project.id />
+    <param.matlab.project.name />
+    <param.release.start>R2016b</param.release.start>
+    <param.release.end>latest</param.release.end>
+    <param.release.current.only>false</param.release.current.only>
+    <param.compatiblity.windows>true</param.compatiblity.windows>
+    <param.compatiblity.macos>true</param.compatiblity.macos>
+    <param.compatiblity.linux>true</param.compatiblity.linux>
+    <param.compatiblity.matlabonline>true</param.compatiblity.matlabonline>
+    <param.installation.map />
+    <param.additional.sw.names />
+    <param.additional.sw.licenses />
+    <param.additional.sw.win.url />
+    <param.additional.sw.mac.url />
+    <param.additional.sw.linux.url />
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.screenshot />
+      <param.version />
+      <param.output />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.exclude.pcodedmfiles />
+      <param.demosxml />
+      <param.apps />
+      <param.registered.apps />
+      <param.javaclasspath.excludes />
+      <param.required.addons />
+      <param.matlab.project.id />
+      <param.matlab.project.name />
+      <param.release.current.only />
+      <param.compatiblity.windows />
+      <param.compatiblity.macos />
+      <param.compatiblity.linux />
+      <param.compatiblity.matlabonline />
+      <param.installation.map />
+      <param.additional.sw.names />
+      <param.additional.sw.licenses />
+      <param.additional.sw.win.url />
+      <param.additional.sw.mac.url />
+      <param.additional.sw.linux.url />
+    </unset>
+    <fileset.rootdir>
+      <file>${PROJECT_ROOT}</file>
+    </fileset.rootdir>
+    <fileset.rootfiles>
+      <file>${PROJECT_ROOT}/+bnt</file>
+      <file>${PROJECT_ROOT}/LICENSE.md</file>
+      <file>${PROJECT_ROOT}/Package.asv</file>
+      <file>${PROJECT_ROOT}/Package.m</file>
+      <file>${PROJECT_ROOT}/README.md</file>
+      <file>${PROJECT_ROOT}/bnt</file>
+      <file>${PROJECT_ROOT}/bnt.bib</file>
+      <file>${PROJECT_ROOT}/bntdata</file>
+      <file>${PROJECT_ROOT}/bntutil</file>
+      <file>${PROJECT_ROOT}/doc</file>
+      <file>${PROJECT_ROOT}/examples</file>
+      <file>${PROJECT_ROOT}/help</file>
+      <file>${PROJECT_ROOT}/helptoc_template.xml</file>
+      <file>${PROJECT_ROOT}/info.xml</file>
+    </fileset.rootfiles>
+    <fileset.depfun.included>
+      <file>/Users/jeremy.guillon/Repositories/multiconproject/ext/bct/strengths_und.m</file>
+      <file>/Users/jeremy.guillon/Repositories/multiconproject/ext/bct/threshold_absolute.m</file>
+      <file>/Users/jeremy.guillon/Repositories/multiconproject/ext/bct/threshold_proportional.m</file>
+    </fileset.depfun.included>
+    <fileset.depfun.excluded />
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}" name="Brain Network Toolbox.mltbx" optional="false">/Users/jeremy.guillon/Repositories/bnt/Brain Network Toolbox.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/Matlab_R2020b.app</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.16</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
