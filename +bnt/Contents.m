@@ -12,7 +12,7 @@
 %   ecofilter     - 
 %   redundancy    - Compute all the possible paths between node pairs.
 %
-% <a href="matlab:demo('toolbox','Brain Network')">View examples</a> for Brain Network Toolbox.
+% <a href="matlab:demo('toolbox','Brain Network')">Examples</a>
 %
 % <a href="http://guillonjeremy.co">Jeremy Guillon</a> and <a href="https://sites.google.com/site/devicofallanifabrizio/">Fabrizio De Vico Fallani</a>.
 

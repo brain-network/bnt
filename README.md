@@ -6,7 +6,7 @@ BNT can be seen as a repository of MATLAB&#174; scripts and functions that contr
 
 The simplest way to install this toolbox is to download the [latest toolbox package file](https://github.com/brain-network/bnt/releases), double-click on it and follow the instructions.
 
-If you want to install this toolbox in a specific location, you can download the [zip file](), extract it and add this location to your MATLAB&#174; path 
+If you want to install this toolbox in a specific location, you can download the [zip file](), extract it and add this location to your MATLAB&#174; path.
 
 ## Getting started
 

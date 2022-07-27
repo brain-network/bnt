@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright 2014-2016 The MathWorks, Inc. -->
 <demos>
-    <name>Brain Network</name>
+    <name>Brain Network Toolbox</name>
     <type>toolbox</type>
     <icon>HelpIcon.DEMOS</icon>
     <description>
@@ -14,7 +14,7 @@
         <demoitem>
             <label>Multi-Participation Coefficient</label>
             <type>M-file</type>
-            <source>MultiParticipationCoefficientDemo</source>
+            <source>SuperExample</source>
             <thumbnail>html/multiparticipationcoefficient.png</thumbnail>
         </demoitem>
     </demosection>
@@ -26,7 +26,7 @@
         <demoitem>
             <label>Uplink Waveform Modeling Using SRS and PUCCH</label>
             <type>M-file</type>
-            <source>SRSConfigurationExample</source>
+            <source>SuperExample</source>
         </demoitem>
     </demosection>
 
